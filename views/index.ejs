@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= sub %></p>
+    <table>
+      <tr>
+        <th><b>ID#</b></th>
+        <th><b>Term</b></th>
+        <th><b>Description</b></th>
+        <th><b>References</b></th>
+      </tr>
+      <% temps.forEach((temp) => { %>
+        <tr>
+          <td>
+            <%= temp.id %>
+          </td>
+          <td>
+            <%= temp.title %>
+          </td>
+          <td>
+            <%= temp.des %>
+          </td>
+          <td>
+            <%= temp.ref %>
+          </td>
+        </tr>
+      <% }); %>
+    </table>
+  </body>
+</html>
+  </body>
+</html>
