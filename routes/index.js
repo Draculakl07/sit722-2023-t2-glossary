@@ -111,7 +111,48 @@ const itemList = [
 
 {'id':30,'title':'Consul',
 'des':'HashiCorp Consul is a service networking solution that enables teams to manage secure network connectivity between services and across on-prem and multi-cloud environments and runtimes. Consul offers service discovery, service mesh, traffic management, and automated updates to network infrastructure device.',
-'ref':'https://developer.hashicorp.com/consul/docs/intro'}
+'ref':'https://developer.hashicorp.com/consul/docs/intro'},
+
+{'id':31,'title':'Bitbucket',
+'des':'Bitbucket is a web-based version control repository hosting service, owned by Atlassian. It offers both Mercurial and Git repository management, with features such as code reviews, pull requests, and built-in continuous delivery.',
+'ref':'https://bitbucket.org/'},
+
+{'id':32,'title':'TeamCity',
+'des':'TeamCity is a general-purpose CI/CD software platform that allows for flexible workflows, collaboration and development practices.Our solution will allow for successful continuous integration, continuous delivery, and continuous deployment within your DevOps process.',
+'ref':'https://www.jetbrains.com/teamcity/'},
+
+{'id':33,'title':'New Relic',
+'des':'New Relic is a real-time monitoring tool that tracks and provides information about your web app performance. It helps you quickly catch and fix any performance issues more efficiently.',
+'ref':'https://www.hostinger.com/tutorials/what-is-new-relic'},
+
+{'id':34,'title':'Datadog',
+'des':'Datadog is a monitoring and analytics tool for information technology (IT) and DevOps teams that can be used to determine performance metrics as well as event monitoring for infrastructure and cloud services. The software can monitor services such as servers, databases and tools.',
+'ref':'https://www.techtarget.com/searchitoperations/definition/Datadog'},
+
+{'id':35,'title':'AppDynamics',
+'des':'AppDynamics is a leading Application Performance Management (APM) product. It is a tool that monitors your Application Infrastructure and gives you code level visibility. It is supported for all major technologies (Java, .NET, PHP, Node.js, NOSQL etc) and can be installed either as on-premise or as SaaS (Software As a Service) solution.',
+'ref':'https://www.devopsschool.com/blog/what-is-appdynamics-and-how-it-works/'},
+
+{'id':36,'title':'Buildkite',
+'des':'Buildkite is a platform for running Continuous Integration (CI) pipelines on your infrastructure. This makes it fast, secure, and scalable. Builds are conducted through agents. These are small, reliable, and cross-platform build runners controlled through workflows defined in YAML.',
+'ref':'https://octopus.com/blog/introducing-buildkite-integration#:~:text=Buildkite%20is%20a%20platform%20for,through%20workflows%20defined%20in%20YAML.'},
+
+{'id':37,'title':'AWS Lambda',
+'des':'AWS Lambda is a serverless compute service that runs your code in response to events, such as changes to data in an Amazon S3 bucket or updates to a DynamoDB table, allowing you to run code without provisioning or managing servers.',
+'ref':'https://aws.amazon.com/lambda/'},
+
+{'id':38,'title':'Azure DevOps',
+'des':'Azure DevOps provides developer services for support teams to plan work, collaborate on code development, and build and deploy applications. It includes CI/CD, task tracking, and version control.',
+'ref':'https://azure.microsoft.com/en-us/services/devops/'},
+
+{'id':39,'title':'Octopus Deploy',
+'des':'Octopus Deploy is an automated deployment and release management tool. It is designed to simplify deployment of ASP.NET applications, Windows Services, and databases.',
+'ref':'https://octopus.com/'},
+
+{'id':40,'title':'OpenShift',
+'des':'Red Hat® OpenShift® is a unified platform to build, modernize, and deploy applications at scale. Work smarter and faster with a complete set of services for bringing apps to market on your choice of infrastructure.',
+'ref':'https://www.redhat.com/en/technologies/cloud-computing/openshift'}
+
   
   
 ];
